@@ -6,7 +6,7 @@
 ## Overview
 
 <p align="center">
-<img src="./figure/framework.png" width="500">
+<img src="./figure/framework.png" width="1000">
 </p>
 
 Our proposed framework, termed as **WETAS**, optimizes the parameters of the dilated CNN by leveraging only weak supervision (i.e., instance-level anomaly labels, rather than point-level anomaly labels).
