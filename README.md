@@ -19,7 +19,7 @@ For temporal anomaly segmentation on a test input instance, it utilizes dynamic 
 
 ## Run the codes
 
-#### STEP 1. Install the following python libraries / packages
+#### STEP 1. Install the python libraries / packages
 
 - numpy
 - numba
