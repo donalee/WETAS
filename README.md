@@ -1,5 +1,11 @@
 # WETAS: Weakly Supervised Time-Series Anomaly Segmentation
 
+<p align="center">
+<img src="./figure/detection.png" width="500">
+<br>
+	<em> Figure 1. Two different strategies for localizing temporal anomalies. </em>	
+</p>
+
 - This is the author code of ["Weakly Supervised Temporal Anomaly Segmentation with Dynamic Time Warping"](https://to-be-updated) (ICCV 2021).
 - We employ (and customize) the publicly availabe implementation of soft-dtw, please refer to [this repository](https://github.com/Maghoumi/pytorch-softdtw-cuda).
 
@@ -7,15 +13,17 @@
 
 <p align="center">
 <img src="./figure/framework.png" width="1000">
+<br>
+	<em> Figure 2. The overall framework of WETAS, optimized by both the classification loss and the alignment loss. </em>
 </p>
 
 Our proposed framework, termed as **WETAS**, optimizes the parameters of the dilated CNN by leveraging only weak supervision (i.e., instance-level anomaly labels, rather than point-level anomaly labels).
-To fully utilize the given instance-level anomaly labels, two different types of losses are considered:
+To fully utilize the given instance-level anomaly labels, two different types of losses are considered (Figure 2, right).
 
 1) **The classification loss** for correctly classifying an input instance as its instance-level anomaly label
 2) **The alignment loss** for matching the input instance with the sequential anomaly label, which is synthesized by the model by distilling the instance-level label.
 
-For temporal anomaly segmentation on a test input instance, it utilizes dynamic time warping (DTW) which outputs the optimal alignment between a target instance and the sequential anomaly label.
+For temporal anomaly segmentation on a test input instance, it utilizes dynamic time warping (DTW) which outputs the optimal alignment between a target instance and the sequential anomaly label (Figure 2, left).
 
 ## Run the codes
 
