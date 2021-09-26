@@ -6,7 +6,7 @@
 	<em> Figure 1. Two different strategies for localizing temporal anomalies. </em>	
 </p>
 
-- This is the author code of ["Weakly Supervised Temporal Anomaly Segmentation with Dynamic Time Warping"](https://to-be-updated) (ICCV 2021).
+- This is the author code of ["Weakly Supervised Temporal Anomaly Segmentation with Dynamic Time Warping"](https://arxiv.org/abs/2108.06816) (ICCV 2021).
 - We employ (and customize) the publicly availabe implementation of soft-dtw, please refer to [this repository](https://github.com/Maghoumi/pytorch-softdtw-cuda).
 
 ## Overview
