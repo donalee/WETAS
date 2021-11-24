@@ -86,5 +86,11 @@ Epoch [100/200], step [15/15], Train Loss : 0.319351 (BCE : 0.240257, DTW : 0.07
 
 ## Citation
 ```
-TBD
+@inproceedings{lee2021weakly,
+  title={Weakly Supervised Temporal Anomaly Segmentation with Dynamic Time Warping},
+  author={Lee, Dongha and Yu, Sehun and Ju, Hyunjun and Yu, Hwanjo},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={7355--7364},
+  year={2021}
+}
 ```
